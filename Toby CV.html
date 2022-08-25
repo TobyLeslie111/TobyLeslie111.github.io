@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang>
+	<head>
+		<meta charset="UTF-8">
+		<title>Toby Leslie Resume</title>
+		<style>
+			body {
+				background-color: rgb(40, 40, 40);
+				display: flex;
+				justify-content: center;
+			}
+
+			.Page {
+				padding: 30px 0px 30px 30px;
+				background-color: white;
+				width: 820px;
+				height: 1800px;
+			}
+
+			/* Info Bar */
+
+			.InfoBar {
+				float: left;
+				background-color: rgb(231, 238, 226);
+				width: 240px;
+				height: 100%;
+				display: flex;
+				justify-content: center;
+				color: rgb(64, 64, 64);
+			}
+
+			.divTobyImg {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.TobyImg {
+				max-width: 150px;
+			}
+
+			.InfoBarHeader {
+				background-color: rgb(64, 64, 64);
+				color: rgb(231, 238, 226);
+				width: 175px;
+				height: 25px;
+				margin-bottom: 10px;
+			}
+
+			.pInfoBarHeader {
+				padding-top: 3px;
+				font-size: 15px;
+				font-family: Verdana;
+				letter-spacing: 3px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.ContactIconImg {
+				max-width: 25px;
+				margin-right: 10px;
+				float: left;
+			}
+
+			.ContactInfoBar {
+				margin-top: 0px;
+				margin-bottom: 60px;
+			}
+
+			.divContactInfo {
+				display: block;
+				margin-top: 10px;
+				margin-bottom: 20px;
+			}
+
+			.pContactInfo {
+				font-size: 13px;
+				font-weight: normal;
+				font-family: Arial;
+			}
+
+			.EducationInfoBar {
+				display: flex;
+				justify-content: center;
+				font-family: Arial;
+			}
+
+			.divEducationInfo {
+				display: block;
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.pEducationInfoHeader {
+				margin: 0px;
+				font-size: 14px;
+				font-weight: bold;
+				display: flex;
+				justify-content: center;
+			}
+
+			.pEducationInfoSub {
+				margin: 0px;
+				font-size: 12px;
+				font-weight: normal;
+			}
+
+			.ReferencesInfoBar {
+				display: flex;
+				justify-content: center;
+				margin: 0px;
+			}
+
+			.divReferencesInfo {
+				display: block;
+			}
+
+			.pReferencesInfo {
+				margin-top: 0px;
+				font-size: 14px;
+				font-weight: bold;
+				font-family: Arial;
+				display: flex;
+				justify-content: center;
+			}
+
+			.StrengthsInfoBar {
+				margin-top: 0px;
+				font-size: 13px;
+				font-family: Arial;
+				display: flex;
+				justify-content: center;
+			}
+
+			.divStrengthsInfo {
+				display: block;
+			}
+
+			.pStrengthsInfo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			.SkillsInfoBar {
+				margin-top: 0px;
+				font-size: 13px;
+				font-family: Arial;
+				display: flex;
+				justify-content: center;
+			}
+
+			.divSkillsInfo {
+				display: block;
+			}
+
+			.pSkillsInfo {
+				text-align: center;
+				margin-bottom: 20px;
+			}
+
+			/* Main Content */
+
+			.Main {
+				display: flex;
+				justify-content: center;
+			}
+
+			.MainContent {
+				display: block;
+			}
+
+			.NamePlate {
+				margin-bottom: 50px;
+				background-color: rgb(64, 64, 64);
+				color: lightgrey;
+				font-family: Arial;
+				font-size: 40px;
+				width: 525px;
+				height: 160px;
+				display: flex;
+				justify-content: center;
+			}
+
+			.NamePlateContent {
+				display: block;
+				text-align: center;
+			}
+
+			.pNamePlate {
+				margin-top: 40px;
+				margin-bottom: 0px;
+			}
+
+			.imgNamePlateDeco {
+				margin-top: 0px;
+				max-width: 180px;
+			}
+
+			.MainContentSection {
+				margin-bottom: 30px;
+				width: 525px;
+			}
+
+			.MainContentHeader {
+				display: flex;
+				justify-content: center;
+				background-color: rgb(64, 64, 64);
+				color: rgb(231, 238, 226);
+				font-family: Arial;
+				font-size: 15px;
+				letter-spacing: 3px;
+				width: 525px;
+				height: 25px;
+				margin-bottom: 20px;
+			}
+
+			.pProfileHeader {
+				margin-top: 4px;
+			}
+
+			.pMainContent {
+				color: rgb(64, 64, 64);
+				font-family: Arial;
+				font-size: 14px;
+				width: 525px;
+				margin-right: 0px;
+			}
+
+			ul {
+				color: rgb(64, 64, 64);
+				font-family: Arial;
+				font-size: 14px;
+				width: 520px;
+				margin-right: 0px;
+			}
+
+			ul li {
+				margin-bottom: 3px;
+				width: 480px;
+			}
+			
+			ul.sub li {
+				width: 440px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="Page">
+			<!-- Info Bar -->
+			<div class="InfoBar">
+				<div class="InfoBarContent">
+					<div class="divTobyImg">
+						<img class="TobyImg" src="Toby.jpg"/>
+					</div>
+
+					<div class="InfoBarHeader">
+						<p class="pInfoBarHeader">CONTACT</p>
+					</div>
+
+					<div class="ContactInfoBar">
+						<div class="divContactInfo">
+							<img class="ContactIconImg" src="PhoneIcon.png"/>
+							<p class="pContactInfo"><small>0411 625866</small></p>
+						</div>
+						<div class="divContactInfo">
+							<img class="ContactIconImg" src="EmailIcon.png"/>
+							<p class="pContactInfo"><small>tobyleslie678@gmail.com</small></p>
+						</div>
+						<div class="divContactInfo">
+							<img class="ContactIconImg" src="AddressIcon.png"/>
+							<p class="pContactInfo"><small>Shortland NSW</small></p>
+						</div>
+					</div>
+
+					<div class="InfoBarHeader" style="margin-bottom: 20px">
+						<p class="pInfoBarHeader">EDUCATION</p>
+					</div>
+
+					<div class="EducationInfoBar">
+						<div class="divEducationInfo">
+							<p class="pEducationInfoHeader">BACHELOR<br/>INFORMATION <br/>TECHNOLOGY</p><p class="pEducationInfoSub">Newcastle University<br/>Sem 2, 2018 - current</p>
+							<br/>
+							<p class="pEducationInfoHeader">BACHELOR<br/>ENGINEERING<br/>(SOFTWARE)</p>
+							<p class="pEducationInfoSub">Newcastle University<br/>Sem 1, 2018</p></th>
+							<br/>
+							<p class="pEducationInfoHeader">NEWSTEP</p>
+							<p class="pEducationInfoSub">Newcastle University<br/>2017</p>
+							<br/>
+							<p class="pEducationInfoHeader">Years 10-12</p>
+							<p class="pEducationInfoSub">Toronto High School<br/>2014-2016</p></th>
+							<br/>
+							<p class="pEducationInfoHeader">Years 1-9</p>
+							<p class="pEducationInfoSub">Charlton Christian College<br/>2007-2015</p>
+						</div>
+					</div>
+
+					<div class="InfoBarHeader" style="margin-bottom: 20px">
+						<p class="pInfoBarHeader">REFERENCES</p>
+					</div>
+
+					<div class="ReferencesInfoBar">
+						<div class="divReferencesInfo">
+							<p class="pReferencesInfo">Available on Request</p>
+						</div>
+					</div>
+
+					<div class="InfoBarHeader" style="margin-bottom: 20px">
+						<p class="pInfoBarHeader">STRENGTHS</p>
+					</div>
+
+					<div class="StrengthsInfoBar">
+						<div class="divStrengthsInfo">
+							<p class="pStrengthsInfo">Excellent Customer Service</p>
+							<p class="pStrengthsInfo">Good Work Ethic</p>
+							<p class="pStrengthsInfo">Critical Thinking</p>
+							<p class="pStrengthsInfo">Judgement and Decision<br/>Making</p>
+							<p class="pStrengthsInfo">Time Management</p>
+							<p class="pStrengthsInfo">Active Listening</p>
+							<p class="pStrengthsInfo">Strong Communicator</p>
+							<p class="pStrengthsInfo">Willingness to Learn</p>
+							<p class="pStrengthsInfo">Attention to Detail</p>
+							<p class="pStrengthsInfo">Willingness to Collaborate<br/>with Stakeholders</p>
+						</div>
+					</div>
+
+					<div class="InfoBarHeader" style="margin-bottom: 20px">
+						<p class="pInfoBarHeader">SKILLS</p>
+					</div>
+
+					<div class="SkillsInfoBar">
+						<div class="divSkillsInfo">
+							<p class="pSkillsInfo">Python</p>
+							<p class="pSkillsInfo">Java</p>
+							<p class="pSkillsInfo">C++</p>
+							<p class="pSkillsInfo">C#</p>
+							<p class="pSkillsInfo">HTML & XML</p>
+							<p class="pSkillsInfo">Javascript</p>
+							<p class="pSkillsInfo">SQL</p>
+							<p class="pSkillsInfo">Apache TomCat</p>
+							<p class="pSkillsInfo">ASP.net</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Main Content -->
+
+			<div class="Main">
+				<div class="MainContent">
+					<div class="NamePlate">
+						<div class="NamePlateContent">
+							<p class="pNamePlate">TOBY LESLIE</p>
+							<img class="imgNamePlateDeco" src="NamePlateDeco.png">
+						</div>
+					</div>
+
+					<div class="MainContentSection">
+						<div class="MainContentHeader">
+							<p class="pProfileHeader">PROFILE</p>
+						</div>
+						<p class="pMainContent">
+							I am a mature, honest and reliable person with excellent knowledge in relation to computers and technology. I am a strong communicator with a willingness to learn any new task. I work well as part of a team or individually.
+							<br/><br/>
+							With a combination of knowledge, experience and current study in Information Technology and programming, I believe I will be an asset to any employer. I wish to develop my skills and contribute to a dynamic team evironment.
+						</p>
+					</div>
+
+					<div class="MainContentSection">
+						<div class="MainContentHeader">
+							<p class="pProfileHeader">WORK EXPERIENCE</p>
+						</div>
+						<p class="pMainContent">
+							<strong>TECHNICAL AND COMPUTER SUPPORT</strong><br/>
+							Family and Friends - 2017 to current<br/><br/>
+							Providing phone and face-to-face support as required:<br/>
+						</p>
+						<ul>
+							<li>General computer functions</li>
+							<li>Internet and email</li>
+							<li>Technical support</li>
+							<li>Security advice</li>
+							<li>Any other assistance/guidance as required</li>
+						</ul>
+						<br/>
+						<p class="pMainContent">
+							<strong>POLLING ASSISTANT - ORDINARY VOTES</strong><br/>
+							Australian Electoral Commission - 2019<br/><br/>
+							Adherence to the Australian Public Service Code of Conduct and Australian Electroal Commission Values and Commitments. Ability to handle ballot papers safely and securely throughout electoral processes and to account for every ballot paper at all times.<br/><br/>
+						</p>
+						<ul>
+							<li>Issue ballot papers to voters and mark off names as having voted</li>
+							<li>Guard ballot boxes</li>
+							<li>Organise and manage queues</li>
+							<li>Direct voters to relevant voting points and exit</li>
+							<li>Identify voters requiring assistance</li>
+							<li>Assist counting votes and other end-of-day activities</li>
+						</ul>
+						<br/>
+
+						<p class="pMainContent">
+							<strong>CATERING ASSISTANT</strong><br/>
+							Cater Care - 2019<br/><br/>
+							Responsibility for food preparation and service of dining room and service area. Hygiene maintenance in accordance with Cater Care and Health and Safety standards.<br/><br/>
+						</p>
+						<ul>
+							<li>Food handling, preparation and service</li>
+							<li>Customer service and communication</li>
+							<li>Preparation and setting of dining area</li>
+							<li>Cleaning</li>
+							<li>Kitchenhand</li>
+						</ul>
+						<br/>
+
+						<p class="pMainContent">
+							<strong>ELECTION OFFICIAL - ORDINARY VOTES</strong><br/>
+							NSW Electoral Commussion - 2019<br/><br/>
+							Supporting the Voting centre Manager to undertake all required processes as set out by the NSW Electoral Commission on Election day. Ability to handle ballot papers safely and securely throughout electoral processes and to account for every ballot paper at all times.<br/><br/>
+						</p>
+						<ul>
+							<li>Issue ballot papers to voters and mark off names as having voted</li>
+							<li>Organise and manage queues</li>
+							<li>Direct voters to relevant voting points and exit</li>
+							<li>Identify voters requiring assitance</li>
+							<li>Assist counting votes and other end-of-day activities</li>
+						</ul>
+						<br/>
+
+						<div class="MainContentHeader">
+							<p class="pProfileHeader">PROFESSIONAL ACHIEVEMENTS</p>
+						</div>
+						<p class="pMainContent">
+							<strong>SUPERGIANT GAMES</strong><br/>
+							Hades - Beta Tester 2019 to 2020<br/><br/>
+						</p>
+						<ul>
+							<li>Member of beta testing team prior to the full release of the video game 'Hades'</li>
+							<li>Listed in end credits (Toby 'Pr0xy25' Leslie) for recognition of service for beta testing</li>
+							<li>Hades multiple award winning game 2020-2021</li>
+							<ul class="sub" style="list-style-type: circle;">
+								<li>The Game Award for 'Best Action Game' 2020</li>
+								<li>The Game Award for 'Best Independent Game' 2020</li>
+								<li>BAFTA Games Awards - 'Best Game', "Artistic Archievement', 'Performer in a Supporting Role', 'Narrative'</li>
+								<li>British Academy Games Award for 'Games Design'</li>
+								<li>Nebula Award for 'Game Writing'</li>
+							</ul>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
